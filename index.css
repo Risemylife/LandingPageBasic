@@ -92,7 +92,8 @@ body{
     padding: 10px 30px;
     background-color: #D1C8C1;
     border-radius: 40px;
-    margin-top: 0;    
+    margin-top: 0;   
+    cursor: pointer; 
  }
 
  .homeContent .groupImage{
@@ -106,4 +107,61 @@ body{
 
  .homeContent .groupImage img:not(:last-child){
     margin-right: 10px;
+ }
+ 
+ #aboutMe{
+   margin: 30px 0;
+   padding: 0 1%;
+   display: flex;
+   justify-content: space-between;
+ }
+
+ #aboutMe img{
+   width: 40%;
+   height: 70vh;
+ }
+
+ #aboutMe .aboutMeContent{
+   width: 58%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+ }
+
+ #aboutMe .aboutMeContent span:first-child{
+   font-size: 15px;
+   text-transform: uppercase;
+   font-weight: bold;
+ }
+
+ #aboutMe .aboutMeContent span:nth-of-type(2){
+   font-size: 26px;
+   font-weight: bold;
+ }
+
+ #aboutMe .aboutMeContent .introduce, .content{
+   padding-right: 30px;
+ }
+
+ #aboutMe .aboutMeContent .introduce{
+   font-size: 11px;
+   font-weight: 600;
+   font-style: italic;
+ }
+
+ #aboutMe .aboutMeContent .content{
+   font-size: 13px;
+ }
+
+ #aboutMe .aboutMeContent .btn{
+   width: 130px;
+   color: #fff;
+   font-size: 20px;
+   font-weight: bold;
+   text-transform: uppercase;
+   padding: 10px 30px;
+   background-color: #D1C8C1;
+   border-radius: 40px;
+   cursor: pointer;
+   margin-top: 30px;
  }
