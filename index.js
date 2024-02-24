@@ -37,9 +37,6 @@ tl1.to("#home", {
 
 //trigger about
 
-const x = document.querySelector("#aboutMe").offsetHeight;
-console.log(x)
-
 let tl2 = gsap.timeline({
     scrollTrigger: {
         trigger: "#aboutMe",
