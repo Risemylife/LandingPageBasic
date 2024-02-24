@@ -110,6 +110,11 @@ header .groupLine span {
   border-radius: 40px;
   margin-top: 0;
   cursor: pointer;
+  transition: ease-in-out 0.3s;
+}
+
+.homeContent .homeContentLeft .buttonShop:hover{
+  background-color: #86654B;
 }
 
 .homeContent .groupImage {
@@ -181,6 +186,11 @@ header .groupLine span {
   border-radius: 40px;
   cursor: pointer;
   margin-top: 30px;
+  transition: ease-in-out 0.3s;
+}
+
+.btn:hover{
+  background-color: #86654B;
 }
 
 #courses {
@@ -251,14 +261,16 @@ header .groupLine span {
 #shopping .arrow {
   width: 30px;
   height: 50px;
+  cursor: pointer;
 }
 
-#shopping .containerCart{
+#shopping .containerCart {
   margin: 0 5px;
   display: flex;
+  gap: 20px;
 }
 
-#shopping .containerCart .cart{
+#shopping .containerCart .cart {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -278,23 +290,125 @@ header .groupLine span {
   margin-right: 10px;
 }
 
-#shopping .cart .nameProduct{
+#shopping .cart .nameProduct {
   font-size: 16px;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
-#shopping .cart .priceProduct{
+#shopping .cart .priceProduct {
   font-size: 13px;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
-#shopping .cart .btnAddToCart{
+#shopping .cart .btnAddToCart {
   font-size: 13px;
   font-weight: bold;
   padding: 10px 20px;
   background-color: #D1C8C1;
   width: 50%;
   margin-bottom: 5px;
+  transition: ease-in-out 0.3s;
+  cursor: pointer;
+}
+
+#shopping .cart .btnAddToCart:hover{
+  background-color: #86654B;
+}
+
+#contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px 0 150px;
+  margin: 100px 0 70px 0;
+}
+
+#contact .infoContact {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+#contact .infoContact .title {
+  font-size: 33px;
+  font-weight: bold;
+}
+
+#contact .infoContact .remind {
+  font-size: 13px;
+  font-weight: 600;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+#contact .infoContact .contentContact {
+  font-size: 12px;
+  margin-bottom: 20px;
+  width: 80%;
+}
+
+#contact .formContact {
+  width: 48%;
+}
+
+#contact .formContact form {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+#contact .formContact form input,
+textarea {
+  width: 70%;
+  margin-bottom: 10px;
+}
+
+#contact .formContact form input,
+textarea {
+  height: 30px;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #000;
+  background-color: #D1C8C1;
+  outline: none;
+  border: none;
+  padding-left: 10px;
+}
+
+#contact .formContact form input:last-of-type {
+  width: 135px;
+  height: auto;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px 30px;
+  background-color: #D1C8C1;
+  border-radius: 40px;
+  margin-top: 0;
+  cursor: pointer;
+  text-align: center;
+  transition: ease-in-out 0.3s;
+  transform: translateX(150%);
+}
+
+#contact .formContact form input:last-of-type:hover{
+  background-color: #86654B;
+}
+
+textarea {
+  height: 100px;
+  width: 68%;
+  resize: none;
+  font-family: "Montserrat", sans-serif;
+  padding: 10px;
+}
+
+::placeholder {
+  color: #000;
 }
