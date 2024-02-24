@@ -3,6 +3,7 @@ body {
   padding: 0 5%;
   background-color: #F6F4F3;
   font-family: "Montserrat", sans-serif;
+  /* overflow: hidden; */
 }
 
 .groupLine {
@@ -65,6 +66,7 @@ header .groupLine span {
 
 #home {
   padding: 0 1%;
+  margin-bottom: 200px;
 }
 
 #home .banner {
@@ -74,6 +76,7 @@ header .groupLine span {
   background-size: cover;
   height: 40vh;
   position: relative;
+  z-index: 1;
 }
 
 #home .banner .bannerTitle {
